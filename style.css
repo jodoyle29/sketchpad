@@ -4,6 +4,10 @@ body{
 	align-items: center;
 }
 
+button{
+	margin-bottom: 20px;
+}
+
 .container{
 	display: flex;
 	flex-direction: column;
@@ -17,9 +21,13 @@ body{
 .row{
 	display: flex;
 	justify-content: space-evenly;
-	width: 90%;
+	width: 100%;
 }
 
 .cell {
 	display: flex;
+}
+
+.newColor{
+	background: black;
 }
